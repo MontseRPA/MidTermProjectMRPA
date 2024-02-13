@@ -1,8 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    font: roboto;
+    background-color: f2f4fc;
+    height: 4490px;
+    width: 1440;
+}
+header.li {
+    font-size: 17;
 }
 
 @media (max-width:640px) {}  
+
+
 
 
