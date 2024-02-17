@@ -5,44 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MidTermProjectMRPA-HomePage</title>
     <link rel="stylesheet" type="text/css" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav id="navBar">
-        <img src="C:\Users\monts\Desktop\ironhack\midtermproject\logos\circle.svg" alt="Circle">
-        <ol>
-          <li class="bluecolor"><a href="home"></a>Home</li>
-          <li><a href="projects"></a></a>Projects</li>
-          <li><a href="services"></a>Services</li>
-        </ol>
-        <a href="concactus" class="awhitecolor"> Contact Us</a>
-      </nav>
+      <img width="60px"  src="logos\circle.svg" alt="Circle"/>
+      <nav id="navbar">
+        <a href="home">Home</a>
+        <a href="projects">Projects</a>
+        <a href="services">Services</a>
+        <a href="concactus" class="boxblue">Contact Us</a>
+          </nav>
     </header>
-    <section id="heroSection">
-      <h1>Empower Your <br>Business With <br>Stunning Design</h1>
-      <p>Circle is a digital desing and development studio.</p>
-      <p>We design and develop astonishing websites <br> and mobile apps.</p>
-      <a href="getintouch" class="awhitecolor">Get in touch</a>
-      <a href="seeourwork">See our work</a>
-      <img src="C:\Users\monts\Desktop\ironhack\midtermproject\hero-section\hero-image.png" alt="Sonrie">
-      <img src="hero-section\card-1.png" alt="card">
-      <img src="hero-section\card-2.png" alt="ok">
+    <section id="herosection">
+      <section id="herosection1">
+        <h1>Empower Your <br />Business With <br />Stunning Design!</h1>
+        <p>Circle is a digital desing and development studio. <br>
+           We design and develop astonishing websites <br />
+           and mobile apps. </p>
+        <a href="getintouch" class="boxblue">Get in touch</a>
+        <a href="seeourwork" >See our work</a>
+      </section>
+      <section id="herosection2">
+        <img
+          width="80%"
+          height="auto"
+          src="hero-section\hero-image.png"
+          alt="Sonrie"
+          id="heroimage"
+        />
+        <img
+          width="40%"
+          height="auto"
+          src="hero-section\card-1.png"
+          alt="card"
+          id="herocard1"
+        />
+        <img
+          width="40%"
+          height="auto"
+          src="hero-section\card-2.png"
+          alt="ok"
+          id="herocard2"
+        />
+      </section>
     </section>
-    <section class="clientSection">
-        <a href="https://www.airbnb.es/" target="_blank"><img src="logos\airbnb-logo.svg" alt="airbnb"></a>
-        <a href="https://www.google.com/" target="_blank"><img src="logos\google-logo.svg" alt="google"></a>
-        <a href="https://www.microsoft.com/" target="_blank"><img src="logos\microsoft-logo.svg" alt="microsoft"></a>
-        <a href="https://www.fedex.com/es-es/home.html" target="_blank"><img src="logos\fedex-logo.svg" alt="fedex"></a>
-        <a href="https://www.amazon.com/" target="_blank"><img src="logos\amazon-logo.svg" alt="amazon"></a>
+    <section id="clientsection">
+      <a href="https://www.airbnb.es/" target="_blank"
+        ><img src="logos\airbnb-logo.svg" alt="airbnb"
+      /></a>
+      <a href="https://www.google.com/" target="_blank"
+        ><img src="logos\google-logo.svg" alt="google"
+      /></a>
+      <a href="https://www.microsoft.com/" target="_blank"
+        ><img src="logos\microsoft-logo.svg" alt="microsoft"
+      /></a>
+      <a href="https://www.fedex.com/es-es/home.html" target="_blank"
+        ><img src="logos\fedex-logo.svg" alt="fedex"
+      /></a>
+      <a href="https://www.amazon.com/" target="_blank"
+        ><img src="logos\amazon-logo.svg" alt="amazon"
+      /></a>
     </section>
-    <section id="projectsSection">
-      <h2>Recent Projects</h2>
-      <div id="Projects"></div>
+    <section id="projectssection">
+      <h3>Recent Projects</h3>
+      <div id="projects">
+        <div id="projects1">
+          <img src="projects-section\1.jpg" alt="Simplify" class="img-projects">
+          <h4>Simplify</h4>
+          <p>UI Design & App Development</p>
+          <a href="simplifyproject">Learn more</a>
+        </div>
+        <div id="projects2">
+          <img src="projects-section\2.jpg" alt="Dashcoin" class="img-projects">
+          <h4>Dashcoin</h4>
+          <p>Web Development</p>
+          <a href="dashcoinproject">Learn more</a>
+        </div>
+        <div id="projects3">
+          <img src="projects-section\3.jpg" alt="Vectorify" class="img-projects">
+          <h4>Vectorify</h4>
+          <p>User Experience Design</p>
+          <a href="vectorifyproject">Learn More</a>
+        </div>
+      </div>
     </section>
-    <section id="testimonialSection">
-      <h2>Hear What Our Clients Have to Say</h2>
-      <p>Circle helpes us through every stage of our startup.</p>
-      <p>We really enjoyed working with you.</p>
+    <section id="testimonialsection">
+      <h3>Hear What Our Clients Have to Say</h3>
+      <h4>"Circle helpes us through every stage of our startup.<br>
+      We really enjoyed working with you."</h4>
+      <p>Kristin Watson</p>
+      <a href=""></a>
     </section>
     <section id="servicesSection">
       <h2>Our services</h2>
@@ -53,8 +109,14 @@
       <p>Let us help you!</p>
     </section>
     <footer id="footerSection">
-      <img src="C:\Users\monts\Desktop\ironhack\midtermproject\logos\circle.svg" alt="Circle">
-      <address>2972 Westheimer Rd. Santa Ana, <br> Illinois 85486</address>
+      <img
+        src="C:\Users\monts\Desktop\ironhack\midtermproject\logos\circle.svg"
+        alt="Circle"
+      />
+      <address>
+        2972 Westheimer Rd. Santa Ana, <br />
+        Illinois 85486
+      </address>
       <ol>
         <li>Team</li>
         <li>Services</li>
