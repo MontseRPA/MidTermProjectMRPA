@@ -6,7 +6,18 @@ body {
   max-width: 1440px;
   width: 100%;
 }
-html, h1, h2, h3, h4, h5, h6, p, div, section, header, nav {
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+section,
+header,
+nav {
   padding: 0;
   margin: 0;
 }
@@ -33,7 +44,7 @@ h4 {
 .body-medium {
   font-size: 24px;
   font-weight: 500;
- }
+}
 .body-regular {
   font-size: 20px;
   font-weight: 400;
@@ -54,63 +65,76 @@ h4 {
   font-size: 13px;
   font-weight: 400;
 }
-a{
+a {
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
-p, li, a{
+p,
+li,
+a {
   color: #6b708d;
+}
+.bluecolor {
+  color: #072ac8;
 }
 .boxblue {
   background-color: #072ac8;
   color: #f2f4fc;
-  height: 52px;
+  height: 32px;
   width: auto;
   padding: 15px 36px;
   border: 0;
-  }
+}
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   margin: 0;
+  box-sizing: border-box;
+  background-color: #f2f4fc;
   padding: 0px 170px 0px 170px;
   height: 122px;
-   }
-   header nav{
-    padding-left: 100px;
-    display: flex;
-    flex-flow: nowrap row;
-    flex-direction: row;
-    justify-content: space-around;
-   }
-   #herosection{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar {
+  width: 295px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#herosection {
   margin-top: 100px;
   padding: 0px 170px;
   height: 650px;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: center;
 }
-  #herosection a{
-    position: relative;
-    top: 40px;
-    }
-    #herosection1{
-    height: 422px;
-    width: 530px;
-    padding: 114px 0px;
+#herosectiona {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
-  #herosection2{
-    height: 650px;
-    width: 570px;
-    }
-   
- #clientsection {
+#herosection1 {
+  height: auto;
+  width: 530px;
+  padding: 96px 0px;
+}
+#herosection2 {
+  height: auto;
+  width: 570px;
+  padding: 96px 0px;
+}
+#clientsection {
   height: 96px;
   margin-top: 130px;
   padding: 0px 170px;
@@ -120,37 +144,37 @@ header {
 }
 .img-projects {
   height: 240px;
-  width: 340px;
+  width: 280px;
 }
-#projectssection{
-  height: 561px ;
+#projectssection {
+  height: 561px;
   margin-top: 200px;
   padding: 0px 170px;
 }
-#projects{
+#projects {
   padding-top: 50px;
-  display: flex;
-  flex-flow: nowrap row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: projects1 img, projects2 img, projects3 img projects1 h4,
+    projects2 h4, projects3 h4 projects1 p, projects2 p, projects3 p projects1 a,
+    projects2 a, projects3 a;
+  column-gap: 40px;
 }
-#projects a{
+#projects a {
   color: #072ac8;
 }
-#testimonialsection{
+#testimonialsection {
   height: 622px;
   margin-top: 200px;
   padding: 0px 60px;
   background-color: #072ac8;
- }
- #testimonialsection h3{
+}
+#testimonialsection h3 {
   color: white;
- }
- #testimonialsection h4{
+}
+#testimonialsection h4 {
   color: #ffc600;
- }
-
-
-
+}
 
 @media (max-width: 640px) {
 }
