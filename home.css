@@ -116,20 +116,25 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
 }
 #herosectiona {
+  padding-top: 20px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
 }
 #herosection1 {
   height: auto;
-  width: 530px;
+  width: 570px;
   padding: 96px 0px;
 }
 #herosection2 {
+  display: flex;
+  justify-content: end;
   height: auto;
   width: 570px;
   padding: 96px 0px;
@@ -150,16 +155,19 @@ header {
   height: 561px;
   margin-top: 200px;
   padding: 0px 170px;
+  background-color: ;
 }
 #projects {
   padding-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: projects1 img, projects2 img, projects3 img projects1 h4,
-    projects2 h4, projects3 h4 projects1 p, projects2 p, projects3 p projects1 a,
-    projects2 a, projects3 a;
+  grid-template-areas: projects1 img, projects2 img, projects3 img 
+                       projects1 h4, projects2 h4, projects3 h4
+                       projects1 p, projects2 p, projects3 p
+                       projects1 a, projects2 a, projects3 a;
   column-gap: 40px;
 }
+
 #projects a {
   color: #072ac8;
 }
