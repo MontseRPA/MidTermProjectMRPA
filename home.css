@@ -79,6 +79,15 @@ a {
 .bluecolor {
   color: #072ac8;
 }
+.yellowcolor{
+  color: #ffc600;
+}
+.whitecolor{
+  color: #f2f4fc;
+}
+.hovercolor{
+  color: #a2d6f9;
+}
 .boxblue {
   background-color: #072ac8;
   color: #f2f4fc;
@@ -155,8 +164,7 @@ header {
   height: 561px;
   margin-top: 200px;
   padding: 0px 170px;
-  background-color: ;
-}
+  }
 #projects {
   padding-top: 50px;
   display: grid;
@@ -166,23 +174,57 @@ header {
                        projects1 p, projects2 p, projects3 p
                        projects1 a, projects2 a, projects3 a;
   column-gap: 40px;
-}
-
-#projects a {
-  color: #072ac8;
-}
+  }
 #testimonialsection {
+  margin: 0px 170px;
   height: 622px;
   margin-top: 200px;
-  padding: 0px 60px;
-  background-color: #072ac8;
+  background-color: #292e47;
+  position: relative;
 }
-#testimonialsection h3 {
-  color: white;
+#testimonialsection-emoji img{
+height: 150px;
 }
-#testimonialsection h4 {
-  color: #ffc600;
+#testimonialsection-emoji1{
+  position: absolute;
+  top: 4%;
+  left: 6%;
+}
+#testimonialsection-emoji2{
+  position: absolute;
+  top: 4%;
+  right: 6%;
+}
+#testimonialsection-emoji3{
+  position: absolute;
+  bottom: 6%;
+  left: 6%;
+}
+#testimonialsection-emoji4{
+  position: absolute;
+  bottom: 6%;
+  right: 6%;
+}
+#testimonialsection2 img{
+  height: 50px;
+  border-radius: 150px;
+}
+#testimonialsection2{
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 160px;
+   }
+ #testimonial1{
+text-align: center;
+row-gap: 40px;
+ }
+
+#testimonialsection h3{
+  color: #f2f4fc;
 }
 
-@media (max-width: 640px) {
-}
+
