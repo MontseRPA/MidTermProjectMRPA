@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: Roboto;
   background-color: #f2f4fc;
-  max-width: 1440px;
+  width: 1440px;
   width: 100%;
 }
 html,
@@ -170,10 +170,11 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: projects1 img, projects2 img, projects3 img 
-                       projects1 h4, projects2 h4, projects3 h4
+                       projects1 p, projects2 p, projects3 p
                        projects1 p, projects2 p, projects3 p
                        projects1 a, projects2 a, projects3 a;
   column-gap: 40px;
+  background-color: #ffffff;
   }
 #testimonialsection {
   margin: 0px 170px;
@@ -220,11 +221,54 @@ height: 150px;
    }
  #testimonial1{
 text-align: center;
-row-gap: 40px;
  }
-
+ #testimonial1 p{
+  padding-top: 80px;
+ }
+ #testimonial2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+#testi2{
+  display: flex;
+  flex-direction: column;
+}
 #testimonialsection h3{
   color: #f2f4fc;
 }
+#servicessection{
+  margin-top: 200px;
+  padding: 0px 170px;
+  height: 497px;
+}
+#services{
+  padding-top:60px;
+  height: 380px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: service1 img, service2 img, service3 img
+  service1 p, service2 p, service3 p
+  service1 p, service2 p, service3 p
+  service1 a, service2 a, service3 a;
+  column-gap: 30px;
+}
+#service1{
+  height:380px;
+  width: 340px;
+  background-color: #ffffff;
+}
+#service2{
+  height:380px;
+  width: 340px;
+  background-color: #ffffff;
+
+  }
+#service3{
+  height:380px;
+  width: 340px;
+  background-color: #ffffff;
+  }
+
 
 
