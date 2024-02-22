@@ -73,19 +73,20 @@ li {
 }
 p,
 li,
-a, address {
+a,
+address {
   color: #6b708d;
 }
 .bluecolor {
   color: #072ac8;
 }
-.yellowcolor{
+.yellowcolor {
   color: #ffc600;
 }
-.whitecolor{
+.whitecolor {
   color: #f2f4fc;
 }
-.hovercolor{
+.hovercolor {
   color: #a2d6f9;
 }
 .boxblue {
@@ -164,52 +165,51 @@ header {
   height: 561px;
   margin-top: 200px;
   padding: 0px 170px;
-  }
+}
 #projects {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: projects1 img, projects2 img, projects3 img 
-                       projects1 p, projects2 p, projects3 p
-                       projects1 p, projects2 p, projects3 p
-                       projects1 a, projects2 a, projects3 a;
+  grid-template-areas: projects1 img, projects2 img, projects3 img projects1 p,
+    projects2 p, projects3 p projects1 p, projects2 p, projects3 p projects1 a,
+    projects2 a, projects3 a;
   column-gap: 40px;
   background-color: #ffffff;
-  }
+}
 #testimonialsection {
   margin: 200px 60px 0px 60px;
   height: 622px;
   background-color: #292e47;
   position: relative;
 }
-#testimonialsection-emoji img{
-height: 150px;
+#testimonialsection-emoji img {
+  height: 150px;
 }
-#testimonialsection-emoji1{
+#testimonialsection-emoji1 {
   position: absolute;
   top: 4%;
   left: 6%;
 }
-#testimonialsection-emoji2{
+#testimonialsection-emoji2 {
   position: absolute;
   top: 4%;
   right: 6%;
 }
-#testimonialsection-emoji3{
+#testimonialsection-emoji3 {
   position: absolute;
   bottom: 6%;
   left: 6%;
 }
-#testimonialsection-emoji4{
+#testimonialsection-emoji4 {
   position: absolute;
   bottom: 6%;
   right: 6%;
 }
-#testimonialsection2 img{
+#testimonialsection2 img {
   height: 50px;
   border-radius: 150px;
 }
-#testimonialsection2{
+#testimonialsection2 {
   position: absolute;
   top: 25%;
   left: 23%;
@@ -217,43 +217,42 @@ height: 150px;
   flex-direction: column;
   align-items: center;
   gap: 160px;
-   }
- #testimonial1{
-text-align: center;
- }
- #testimonial1 p{
+}
+#testimonial1 {
+  text-align: center;
+}
+#testimonial1 p {
   padding-top: 80px;
- }
- #testimonial2 {
+}
+#testimonial2 {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
- }
-#testi2{
+}
+#testi2 {
   display: flex;
   flex-direction: column;
 }
-#testimonialsection h3{
+#testimonialsection h3 {
   color: #f2f4fc;
 }
-#servicessection{
+#servicessection {
   margin-top: 200px;
   padding: 0px 170px;
   height: 497px;
 }
-#services{
-  padding-top:50px;
+#services {
+  padding-top: 50px;
   height: 380px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: service1 img, service2 img, service3 img
-  service1 p, service2 p, service3 p
-  service1 p, service2 p, service3 p
-  service1 a, service2 a, service3 a;
+  grid-template-areas: service1 img, service2 img, service3 img service1 p,
+    service2 p, service3 p service1 p, service2 p, service3 p service1 a,
+    service2 a, service3 a;
   column-gap: 30px;
 }
-#service1{
-  height:380px;
+#service1 {
+  height: 380px;
   max-width: 340px;
   background-color: #ffffff;
   display: flex;
@@ -261,33 +260,33 @@ text-align: center;
   justify-content: space-evenly;
   align-items: center;
 }
-#service2{
-  height:380px;
+#service2 {
+  height: 380px;
   max-width: 340px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  }
-#service3{
-  height:380px;
+}
+#service3 {
+  height: 380px;
   max-width: 340px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  }
-  #services img{
-    height: 40px;
-    width: 40px;
-    background-color: #ecf7ff;
-    border-radius: 25px; 
-    position: relative;
-    left: 5px;
-  }
-#services a{
+}
+#services img {
+  height: 40px;
+  width: 40px;
+  background-color: #ecf7ff;
+  border-radius: 25px;
+  position: relative;
+  left: 5px;
+}
+#services a {
   text-align: left;
 }
 #ctasection {
@@ -338,31 +337,32 @@ text-align: center;
   background-color: #072ac8;
   color: #f2f4fc;
 }
-footer{
+footer {
   margin-top: 170px;
   height: 192px;
   padding: 0px 170px 50px 170px;
-  }
-footer img{
+}
+footer img {
   position: relative;
   top: 20px;
-  left: 0px;}
-footer address{
+  left: 0px;
+}
+footer address {
   position: relative;
   top: 50px;
   left: 0px;
 }
-#lista1{
+#lista1 {
   position: relative;
   top: -60px;
   left: 500px;
   display: flex;
   gap: 60px;
-  }
-  #lista2{
+}
+#lista2 {
   position: relative;
   top: -10px;
   left: 500px;
   display: flex;
   gap: 60px;
-  }
+}
