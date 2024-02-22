@@ -73,7 +73,7 @@ li {
 }
 p,
 li,
-a {
+a, address {
   color: #6b708d;
 }
 .bluecolor {
@@ -166,7 +166,7 @@ header {
   padding: 0px 170px;
   }
 #projects {
-  padding-top: 50px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: projects1 img, projects2 img, projects3 img 
@@ -177,9 +177,8 @@ header {
   background-color: #ffffff;
   }
 #testimonialsection {
-  margin: 0px 170px;
+  margin: 200px 60px 0px 60px;
   height: 622px;
-  margin-top: 200px;
   background-color: #292e47;
   position: relative;
 }
@@ -213,7 +212,7 @@ height: 150px;
 #testimonialsection2{
   position: absolute;
   top: 25%;
-  left: 17%;
+  left: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,7 +242,7 @@ text-align: center;
   height: 497px;
 }
 #services{
-  padding-top:60px;
+  padding-top:50px;
   height: 380px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -255,20 +254,115 @@ text-align: center;
 }
 #service1{
   height:380px;
-  width: 340px;
+  max-width: 340px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #service2{
   height:380px;
-  width: 340px;
+  max-width: 340px;
   background-color: #ffffff;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   }
 #service3{
   height:380px;
-  width: 340px;
+  max-width: 340px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   }
-
-
-
+  #services img{
+    height: 40px;
+    width: 40px;
+    background-color: #ecf7ff;
+    border-radius: 25px; 
+    position: relative;
+    left: 5px;
+  }
+#services a{
+  text-align: left;
+}
+#ctasection {
+  height: 500px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 100px;
+  background-color: #ffc600;
+  padding-top: 136px;
+  padding-bottom: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+#ctasection h3 {
+  padding-bottom: 20px;
+}
+#ctasection .body-regular {
+  padding-bottom: 50px;
+  color: #292e47;
+}
+#cta-form-div {
+  position: relative;
+}
+#ctasection label {
+  position: absolute;
+  top: 40%;
+  left: 60px;
+  color: #292e47;
+}
+#ctasection img {
+  position: absolute;
+  top: 35%;
+  left: 20px;
+  height: 30px;
+}
+#ctasection input {
+  width: 393px;
+  height: 80px;
+  border: 0;
+  background-color: #f2f4fc;
+}
+#ctasection button {
+  width: 198px;
+  height: 80px;
+  margin-left: 20px;
+  background-color: #072ac8;
+  color: #f2f4fc;
+}
+footer{
+  margin-top: 170px;
+  height: 192px;
+  padding: 0px 170px 50px 170px;
+  }
+footer img{
+  position: relative;
+  top: 20px;
+  left: 0px;}
+footer address{
+  position: relative;
+  top: 50px;
+  left: 0px;
+}
+#lista1{
+  position: relative;
+  top: -60px;
+  left: 500px;
+  display: flex;
+  gap: 60px;
+  }
+  #lista2{
+  position: relative;
+  top: -10px;
+  left: 500px;
+  display: flex;
+  gap: 60px;
+  }
