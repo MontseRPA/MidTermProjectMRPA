@@ -120,7 +120,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-#simplifysection{
+#simplifysection {
   margin-top: 200px;
   max-width: 1100px;
   height: auto;
@@ -128,23 +128,125 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  }
-#data{
+}
+#data {
   position: relative;
   top: -25px;
   left: 665px;
 }
-#simplifysection img{
+#simplifysection img {
   max-height: 444px;
   height: 100%;
   max-width: 1100px;
   width: 100%;
   object-fit: cover;
-   }
-   #implifysection div span{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-   }
-  
+}
+#implifysection div span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#otherprojects {
+  margin-top: 70px;
+  max-height: 561px;
+  height: 100%;
+  max-width: 1440px;
+  padding: 0px 170px;
+}
+#otherprojects2 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+.projectstyle img {
+  max-height: 240px;
+  height: 100%;
+  max-width: 340px;
+}
+.projectstyle {
+  max-height: 444px;
+  height: 100%;
+  max-width: 1100px;
+}
+
+#ctasection {
+  height: 500px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 100px;
+  background-color: #ffc600;
+  padding-top: 136px;
+  padding-bottom: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+#ctasection h3 {
+  padding-bottom: 20px;
+}
+#ctasection .body-regular {
+  padding-bottom: 50px;
+  color: #292e47;
+}
+#cta-form-div {
+  position: relative;
+}
+#ctasection label {
+  position: absolute;
+  top: 40%;
+  left: 60px;
+  color: #292e47;
+}
+#ctasection img {
+  position: absolute;
+  top: 35%;
+  left: 20px;
+  height: 30px;
+}
+#ctasection input {
+  width: 393px;
+  height: 80px;
+  border: 0;
+  background-color: #f2f4fc;
+}
+#ctasection button {
+  width: 198px;
+  height: 80px;
+  margin-left: 20px;
+  background-color: #072ac8;
+  color: #f2f4fc;
+}
+footer {
+  margin-top: 170px;
+  height: 192px;
+  padding: 0px 170px 50px 170px;
+}
+footer img {
+  position: relative;
+  top: 20px;
+  left: 0px;
+}
+footer address {
+  position: relative;
+  top: 50px;
+  left: 0px;
+}
+#lista1 {
+  position: relative;
+  top: -60px;
+  left: 500px;
+  display: flex;
+  gap: 60px;
+}
+#lista2 {
+  position: relative;
+  top: -10px;
+  left: 500px;
+  display: flex;
+  gap: 60px;
+}
