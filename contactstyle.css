@@ -99,6 +99,7 @@ input {
   padding: 15px 36px;
   border: 0;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -131,6 +132,34 @@ header {
   height: 100%;
   display:inline-flex;
   flex-direction: column;
+  }
+  #contactussection form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+#contactussection input.headline-regular, textarea {
+  background-color: rgba(107,112,141,0.1);
+  border: none;
+  height: 70px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.boxblue2{
+  background-color: #072ac8;
+  color: #f2f4fc;
+  border: none;
+  height: 70px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 
 footer {
