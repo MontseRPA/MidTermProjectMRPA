@@ -125,16 +125,18 @@ header {
 #simplifysection {
   margin-top: 200px;
   max-width: 1100px;
+  max-height: 1181px;
   height: auto;
-  padding: 0px 170px 0px 170px;
+  padding: 0px 170px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  gap: 25px;
 }
 #data {
   position: relative;
-  top: -25px;
-  left: 665px;
+  top: -50px;
+  right: -77% ;
 }
 #simplifysection img {
   max-height: 444px;
@@ -143,12 +145,21 @@ header {
   width: 100%;
   object-fit: cover;
 }
-#implifysection div span {
+#simplifysection > div {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 35px;
 }
+#simplifysection > div > span{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px;
+}
+
 #otherprojects {
   margin-top: 70px;
   max-height: 561px;
@@ -158,23 +169,47 @@ header {
 }
 #otherprojects2 {
   margin-top: 70px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 40px;
-}
-.projectstyle img {
-  max-height: 240px;
   height: 100%;
-  max-width: 340px;
-}
-.projectstyle {
   max-height: 444px;
+}
+#otherprojects2 > div {
+  width: 100%;
+  max-width: 340px;
   height: 100%;
-  max-width: 1100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
+.img-projects {
+  width: 100%;
+  max-height: 240px;
+  height: 100%;
+}
+#otherprojects2 > div .project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 16px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#otherprojects2 > div .project-info .project-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
 #ctasection {
   height: 500px;
   margin-left: 60px;
