@@ -99,6 +99,18 @@ input {
   padding: 15px 36px;
   border: 0;
 }
+.boxblue2{
+  background-color: #072ac8;
+  color: #f2f4fc;
+  border: none;
+  height: 70px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
 
 header {
   margin: 0 auto;
@@ -131,17 +143,29 @@ header {
   max-height: 830px;
   height: 100%;
 }
+#contactussection h1{
+  margin-bottom: 90px;
+}
 #contactussection form{
   max-height: 660px;
   height: 100%;
+  max-width: 1100px;
+  width: 100%;
   display:inline-flex;
   flex-direction: column;
+  gap: 40px;
   }
   #contactussection form div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-  }
+    align-items: flex-start;
+    justify-content: space-between;  }
+
+  #contactussection form div label{
+    max-width: 530px;
+    width: 100%;
+    }
+
 #contactussection input.headline-regular, textarea {
   background-color: rgba(107,112,141,0.1);
   border: none;
@@ -153,17 +177,10 @@ header {
   padding-left: 20px;
   box-sizing: border-box;
 }
-.boxblue2{
-  background-color: #072ac8;
-  color: #f2f4fc;
-  border: none;
-  height: 70px;
-  max-width: 1100px;
-  width: 100%;
-  padding: 0;
-  margin-top: 10px;
-  padding-left: 20px;
-  box-sizing: border-box;
+#contactussection textarea{
+  max-height: 240px;
+  height: 100%;
+  padding-top: 20px;
 }
 
 footer {
