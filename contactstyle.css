@@ -74,7 +74,9 @@ li {
 p,
 li,
 a,
-address {
+address,
+label,
+input {
   color: #6b708d;
 }
 .bluecolor {
@@ -118,9 +120,18 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-
-
-
+#contactussection{
+  margin-top: 200px;
+  padding: 0px 170px;
+  max-height: 830px;
+  height: 100%;
+}
+#contactussection form{
+  max-height: 660px;
+  height: 100%;
+  display:inline-flex;
+  flex-direction: column;
+}
 
 footer {
   margin-top: 170px;
