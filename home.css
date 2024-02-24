@@ -19,7 +19,7 @@ section,
 header,
 nav {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 h1 {
   font-size: 60px;
@@ -89,6 +89,9 @@ address {
 .hovercolor {
   color: #a2d6f9;
 }
+.darkcolor{
+  color: #292e47;
+}
 .boxblue {
   background-color: #072ac8;
   color: #f2f4fc;
@@ -98,14 +101,16 @@ address {
   border: 0;
 }
 header {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  margin: 0;
   box-sizing: border-box;
   background-color: #f2f4fc;
-  padding: 0px 170px 0px 170px;
+  padding: 0px 170px;
   max-height: 122px;
   height: 100%;
   display: inline-flex;
@@ -131,25 +136,28 @@ header {
   align-items: flex-start;
   justify-content: space-around;
 }
-#herosectiona {
+
+#herosection1 {
+  height: auto;
+  max-width: 570px;
+  width: 100%;
+  padding: 96px 0px;
+}
+#herosection1 > div {
   padding-top: 20px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 70%;
-}
-#herosection1 {
-  height: auto;
-  width: 570px;
-  padding: 96px 0px;
+  justify-content: flex-start;
+  gap: 70px;
 }
 #herosection2 {
   display: flex;
   justify-content: end;
   height: auto;
-  width: 570px;
+  max-width: 570px;
+  width: 100%;
   padding: 96px 0px;
 }
 #clientsection {
@@ -163,7 +171,7 @@ header {
 #projectssection {
   height: 100%;
   max-height: 561px;
-  margin-top: 200px;
+  margin: 200px 0px;
   padding: 0px 170px;
 }
 #projects {
@@ -188,7 +196,8 @@ header {
 
 .img-projects {
   width: 100%;
-  height: 240px;
+  max-height: 240px;
+  height: 100%;
 }
 
 #projects > div .project-info {
@@ -212,12 +221,12 @@ header {
 }
 
 #testimonialsection {
-  margin: 200px 60px 0px 60px;
+  margin: 0px 60px;
   height: 622px;
   background-color: #292e47;
   position: relative;
 }
-#testimonialsection-emoji img {
+#testimonialsection-emoji > img {
   height: 150px;
 }
 #testimonialsection-emoji1 {
@@ -256,7 +265,7 @@ header {
 #testimonial1 {
   text-align: center;
 }
-#testimonial1 p {
+#testimonial1  p {
   padding-top: 80px;
 }
 #testimonial2 {
@@ -274,61 +283,50 @@ header {
 #servicessection {
   margin-top: 200px;
   padding: 0px 170px;
-  height: 497px;
+  max-height: 497px;
+  height: 100%;
 }
 #services {
   padding-top: 50px;
-  height: 380px;
+  max-height: 380px;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: service1 img, service2 img, service3 img service1 p,
-    service2 p, service3 p service1 p, service2 p, service3 p service1 a,
-    service2 a, service3 a;
   column-gap: 30px;
 }
-#service1 {
-  height: 380px;
-  max-width: 340px;
-  background-color: #ffffff;
+.servicesicono{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
-}
-#service2 {
-  height: 380px;
-  max-width: 340px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-#service3 {
-  height: 380px;
-  max-width: 340px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-#services img {
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  background-color: #ecf7ff;
+  border-radius: 50px;
+   }
+#services > img {
   height: 40px;
   width: 40px;
-  background-color: #ecf7ff;
-  border-radius: 25px;
-  position: relative;
-  left: 5px;
+  }
+
+.service{
+  max-height: 380px;
+  height: 100%;
+  max-width: 340px;
+  padding: 25px 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
 }
-#services a {
-  text-align: left;
-}
+
 #ctasection {
-  height: 500px;
+  max-height: 500px;
+  height: 100%;
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 100px;
+  margin-top: 170px;
   background-color: #ffc600;
   padding-top: 136px;
   padding-bottom: 136px;

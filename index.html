@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="home.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -27,7 +28,7 @@
           We design and develop astonishing websites <br />
           and mobile apps.
         </p>
-        <div id="herosectiona">
+        <div>
           <a href="getintouch" class="boxblue headline-medium">Get in touch</a>
           <a href="seeourwork" class="headline-medium">See our work</a>
         </div>
@@ -100,11 +101,15 @@
             alt="Vectorify"
             class="img-projects"
           />
-          <p class="body-medium">Vectorify</p>
-          <p class="headline-regular">User Experience Design</p>
-          <a href="vectorifyproject" class="headline-regular bluecolor"
-            >Learn More</a
-          >
+          <div class="project-info">
+            <div class="project-detail">
+              <p class="body-medium">Vectorify</p>
+              <p class="headline-regular">User Experience Design</p>
+            </div>
+              <a href="vectorifyproject" class="headline-regular bluecolor"
+                >Learn More</a
+              >
+          </div>
         </div>
       </div>
     </section>
@@ -155,20 +160,24 @@
     <section id="servicessection">
       <h3>Our services</h3>
       <div id="services">
-        <div id="service1">
-          <img src="services-section/icons/1.svg" alt="logo" />
-          <p class="body-medium">User Interface Design</p>
-          <p class="body-regular">
+        <div class="service">
+          <div class="servicesicono">
+            <img src="services-section/icons/1.svg" alt="logo" />
+           </div>
+            <p class="body-medium darkcolor">User Interface Design</p>
+            <p class="body-regular">
             Circle provides you with a<br />stunning user interface design<br />that
             is accessible to everyone.
-          </p>
-          <a href="userinterfacedesign" class="headline-regular bluecolor"
-            >Learn more</a
-          >
+            </p>
+            <a href="userinterfacedesign" class="headline-regular bluecolor"
+           >Learn more</a
+            >
         </div>
-        <div id="service2">
+        <div class="service">
+        <div class="servicesicono">
           <img src="services-section/icons/2.svg" alt="logo" />
-          <p class="body-medium">User Experience Design</p>
+        </div>
+          <p class="body-medium darkcolor">User Experience Design</p>
           <p class="body-regular">
             Circle always focuses on<br />delivering the best user<br />experience
             to your customers.
@@ -177,9 +186,11 @@
             >Learn more</a
           >
         </div>
-        <div id="service3">
-          <img src="services-section/icons/3.svg" alt="logo" />
-          <p class="body-medium">Application Development</p>
+        <div class="service">
+          <div class="servicesicono">
+            <img src="services-section/icons/3.svg" alt="logo" />
+          </div>
+          <p class="body-medium darkcolor">Application Development</p>
           <p class="body-regular">
             We develop high-quality mobile<br />and web applications using
             the<br />latest technology stack.
@@ -210,7 +221,7 @@
           Illinois 85486
         </address>
       </div>
-      
+
       <div>
         <ol id="lista1">
           <li>Team</li>
