@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  background-color: #f2f4fc;
+  width: 1440px;
+  width: 100%;
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+section,
+header,
+nav {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #292e47;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #292e47;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #292e47;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #292e47;
+}
+.body-medium {
+  font-size: 24px;
+  font-weight: 500;
+}
+.body-regular {
+  font-size: 20px;
+  font-weight: 400;
+}
+.headline-medium {
+  font-size: 17px;
+  font-weight: 500;
+}
+.headline-regular {
+  font-size: 17px;
+  font-weight: 400;
+}
+.caption-1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.caption-2 {
+  font-size: 13px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+p,
+li,
+a,
+address {
+  color: #6b708d;
+}
+.bluecolor {
+  color: #072ac8;
+}
+.yellowcolor {
+  color: #ffc600;
+}
+.whitecolor {
+  color: #f2f4fc;
+}
+.hovercolor {
+  color: #a2d6f9;
+}
+.boxblue {
+  background-color: #072ac8;
+  color: #f2f4fc;
+  height: 32px;
+  width: auto;
+  padding: 15px 36px;
+  border: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f2f4fc;
+  padding: 0px 170px 0px 170px;
+  height: 122px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar {
+  width: 295px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+
+footer {
+  margin-top: 170px;
+  height: 192px;
+  padding: 0px 170px 50px 170px;
+}
+footer img {
+  position: relative;
+  top: 20px;
+  left: 0px;
+}
+footer address {
+  position: relative;
+  top: 50px;
+  left: 0px;
+}
+#lista1 {
+  position: relative;
+  top: -60px;
+  left: 500px;
+  display: flex;
+  gap: 60px;
+}
+#lista2 {
+  position: relative;
+  top: -10px;
+  left: 500px;
+  display: flex;
+  gap: 60px;
+}
