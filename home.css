@@ -161,7 +161,8 @@ header {
   padding: 96px 0px;
 }
 #clientsection {
-  height: 96px;
+  max-height: 96px;
+  height: 100%;
   margin-top: 130px;
   padding: 0px 170px;
   display: flex;
@@ -224,8 +225,12 @@ header {
   margin: 0px 60px;
   height: 622px;
   background-color: #292e47;
+  width: 100%;
   position: relative;
-}
+  }
+  #testimonialdiv{
+  padding: 120px 110px;
+  }
 #testimonialsection-emoji > img {
   height: 150px;
 }
@@ -254,12 +259,10 @@ header {
   border-radius: 150px;
 }
 #testimonialsection2 {
-  position: absolute;
-  top: 25%;
-  left: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   gap: 160px;
 }
 #testimonial1 {
@@ -394,4 +397,51 @@ footer div:first-of-type {
 footer ol {
   display: flex;
   gap: 60px;
+}
+
+
+@media (max-width: 660px) {
+
+html, h1, h2, h3, h4
+ {font-size: 1.5em;
+  }
+  .body-medium,
+  .body-regular,
+  .headline-medium,
+  .headline-regular,
+  .caption-1,
+  .caption-2 {font-size: 0.7em;}
+
+  header, #herosection{
+    padding: 0px 40px;
+    margin:0px;
+  }
+
+#navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#herosection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+#herosection1{
+  padding: 60px 0px;
+}
+#herosection2{
+  padding: 0px;
+}
+#clientsection{
+  padding: 40px;
+  }
+  #clientsection img{
+    max-width:50px ;
+  }
+
+
 }
