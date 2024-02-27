@@ -402,6 +402,8 @@ footer ol {
 
 @media (max-width: 660px) {
 
+ 
+
 html, h1, h2, h3, h4
  {font-size: 1.5em;
   }
@@ -412,7 +414,7 @@ html, h1, h2, h3, h4
   .caption-1,
   .caption-2 {font-size: 0.7em;}
 
-  header, #herosection{
+  header {
     padding: 0px 40px;
     margin:0px;
   }
@@ -424,11 +426,13 @@ html, h1, h2, h3, h4
   justify-content: center;
 }
 #herosection{
+  margin: 0px;
+  padding: 60px 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  
 }
 #herosection1{
   padding: 60px 0px;
@@ -437,11 +441,27 @@ html, h1, h2, h3, h4
   padding: 0px;
 }
 #clientsection{
-  padding: 40px;
+  padding: 0px 40px;
   }
   #clientsection img{
     max-width:50px ;
   }
-
-
+#projectssection{
+  margin: 0px;
+  padding: 40px 40px;
+}
+#testimonialsection-emoji3{
+  display: none;
+}
+#testimonialsection-emoji4{
+  display: none;
+}
+#testimonialsection2{
+  gap: 40px;
+  }
+  #servicessection{
+    margin-top: 50px;
+    padding: 0px 40px;
+  }
+ 
 }
