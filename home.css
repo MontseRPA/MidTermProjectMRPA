@@ -111,9 +111,9 @@ address {
   border: 0;
 }
 header {
-  margin: 0 auto;
+  margin: 0;
   max-width: 1440px;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 0;

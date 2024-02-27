@@ -123,8 +123,8 @@ input {
 }
 
 header {
-  margin: 0 auto;
-  max-width: 1440px;
+  margin: 0;
+  max-width: 1440vw;
   width: 100%;
   position: fixed;
   top: 0;
