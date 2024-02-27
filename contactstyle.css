@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   padding: 0;
   margin: 0 auto;
@@ -6,7 +17,6 @@ body {
   max-width: 1440px;
   width: 100%;
 }
-html,
 h1,
 h2,
 h3,
@@ -244,10 +254,12 @@ footer ol {
   }
 
   #contactussection {
-    padding: 0px 40px;
+    padding: 120px 40px;
     margin: 0px;
   }
-
+  #contactussection h1 {
+    margin-bottom: 30px;
+  }
   footer {
     padding: 0px 40px;
     margin: 0px;
