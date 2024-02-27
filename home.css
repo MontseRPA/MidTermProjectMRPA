@@ -120,7 +120,7 @@ header {
   z-index: 100;
 }
 #navbar {
-  width: 295px;
+    width: 295px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -416,15 +416,19 @@ html, h1, h2, h3, h4
 
   header {
     padding: 0px 40px;
-    margin:0px;
+    margin:0;
+    width: 100vw;
   }
 
 #navbar{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-}
+  }
+  header .boxblue {
+    display: none;
+  }
 #herosection{
   margin: 0px;
   padding: 60px 40px;
@@ -505,10 +509,11 @@ html, h1, h2, h3, h4
     padding: 0px 40px;
     margin:0px;
     margin-top: 150px;
-    max-width: 660px;
-    width: 90%;
+    width: 100vw;
     height: 100%;
+    flex-direction: column;
     justify-content: normal;
+    box-sizing: border-box;
   }
     
   footer div:first-of-type address {
@@ -516,13 +521,15 @@ html, h1, h2, h3, h4
   }
   footer div{
     flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
   }
   footer ol{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
     gap: 0px;
+    padding: 0;
   }
   #lista1{
     display: flex;

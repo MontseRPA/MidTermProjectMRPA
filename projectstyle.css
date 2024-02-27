@@ -301,15 +301,24 @@ footer ol {
 
   header {
     padding: 0px 40px;
-    margin: 0px;
+    margin: 0;
+    width: 100vw;
   }
 
   #navbar {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
   }
+  header .boxblue {
+    display: none;
+  }
+
+  #simplifysection {
+    padding: 0;
+  }
+
   #simplifysection > div > img {
     display: none;
   }
@@ -318,6 +327,14 @@ footer ol {
     margin: 0px;
     padding: 40px 40px;
   }
+
+  #otherprojects2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
   #ctasection {
     max-height: 400px;
     margin-left: 20px;
@@ -359,10 +376,11 @@ footer ol {
     padding: 0px 40px;
     margin: 0px;
     margin-top: 150px;
-    max-width: 660px;
-    width: 90%;
+    width: 100vw;
     height: 100%;
+    flex-direction: column;
     justify-content: normal;
+    box-sizing: border-box;
   }
 
   footer div:first-of-type address {
@@ -370,14 +388,16 @@ footer ol {
   }
   footer div {
     flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
   }
   footer ol {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
     gap: 0px;
-  }
+  padding: 0;
+}
   #lista1 {
     display: flex;
     flex-direction: column;

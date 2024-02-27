@@ -99,7 +99,7 @@ input {
   padding: 15px 36px;
   border: 0;
 }
-.boxblue2{
+.boxblue2 {
   background-color: #072ac8;
   color: #f2f4fc;
   border: none;
@@ -137,37 +137,39 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-#contactussection{
+#contactussection {
   margin-top: 200px;
   padding: 0px 170px;
   max-height: 830px;
   height: 100%;
 }
-#contactussection h1{
+#contactussection h1 {
   margin-bottom: 90px;
 }
-#contactussection form{
+#contactussection form {
   max-height: 660px;
   height: 100%;
   max-width: 1100px;
   width: 100%;
-  display:inline-flex;
+  display: inline-flex;
   flex-direction: column;
   gap: 40px;
-  }
-  #contactussection form div{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;  }
+}
+#contactussection form div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 
-  #contactussection form div label{
-    max-width: 530px;
-    width: 100%;
-    }
+#contactussection form div label {
+  max-width: 530px;
+  width: 100%;
+}
 
-#contactussection input.headline-regular, textarea {
-  background-color: rgba(107,112,141,0.1);
+#contactussection input.headline-regular,
+textarea {
+  background-color: rgba(107, 112, 141, 0.1);
   border: none;
   height: 70px;
   max-width: 1100px;
@@ -177,7 +179,7 @@ header {
   padding-left: 20px;
   box-sizing: border-box;
 }
-#contactussection textarea{
+#contactussection textarea {
   max-height: 240px;
   height: 100%;
   padding-top: 20px;
@@ -208,79 +210,79 @@ footer ol {
   gap: 60px;
 }
 
-
 @media (max-width: 660px) {
+  html,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 1.5em;
+  }
+  .body-medium,
+  .body-regular,
+  .headline-medium,
+  .headline-regular,
+  .caption-1,
+  .caption-2 {
+    font-size: 0.7em;
+  }
 
- 
+  header {
+    padding: 0px 40px;
+    margin: 0;
+    width: 100vw;
+  }
 
-  html, h1, h2, h3, h4
-   {font-size: 1.5em;
-   
-    }
-    .body-medium,
-    .body-regular,
-    .headline-medium,
-    .headline-regular,
-    .caption-1,
-    .caption-2 {font-size: 0.7em;}
-  
-    header {
-      padding: 0px 40px;
-      margin:0px;
-      max-width: 660px;
-      width: 90%;
-    }
-  
-  #navbar{
+  #navbar {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
   }
-  header .boxblue{
+  header .boxblue {
     display: none;
   }
 
+  #contactussection {
+    padding: 0px 40px;
+    margin: 0px;
+  }
 
+  footer {
+    padding: 0px 40px;
+    margin: 0px;
+    margin-top: 150px;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+    justify-content: normal;
+    box-sizing: border-box;
+  }
 
-#contactussection{
-padding: 0px 40px;
-margin: 0px;
-}
+  footer div:first-of-type address {
+    display: none;
+  }
 
-footer{
-  padding: 0px 40px;
-  margin:0px;
-  margin-top: 150px;
-  max-width: 660px;
-  width: 90%;
-  height: 100%;
-  justify-content: normal;
-}
-  
-footer div:first-of-type address {
-  display: none;
-}
-footer div{
-  flex-direction: row;
-}
-footer ol{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 0px;
-}
-#lista1{
-  display: flex;
-  flex-direction: column;
-}
-#lista2{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  
-}
+  footer div {
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
 
-
+  footer ol {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 0;
+  }
+  #lista1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #lista2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
