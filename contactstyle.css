@@ -254,16 +254,20 @@ footer ol {
   }
 
   #contactussection {
-    padding: 120px 40px;
+    padding: 120px 40px 0px 40px;
     margin: 0px;
   }
   #contactussection h1 {
     margin-bottom: 30px;
   }
+  #contactussection form div {
+    flex-direction: column;
+    gap: 30px;
+  }
   footer {
     padding: 0px 40px;
     margin: 0px;
-    margin-top: 150px;
+    margin-top: 80px;
     width: 100vw;
     height: 100%;
     flex-direction: column;
