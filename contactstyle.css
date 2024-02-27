@@ -240,30 +240,47 @@ footer ol {
   header .boxblue{
     display: none;
   }
+
+
+
 #contactussection{
-display: none;
+padding: 0px 40px;
+margin: 0px;
 }
+
 footer{
-  padding: 40px;
+  padding: 0px 40px;
   margin:0px;
-  margin-top: 50px;
+  margin-top: 150px;
   max-width: 660px;
   width: 90%;
-
+  height: 100%;
+  justify-content: normal;
 }
-footer div:first-of-type {
+  
+footer div:first-of-type address {
   display: none;
 }
-footer div:last-of-type{
-  display: flex;
+footer div{
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
 }
 footer ol{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
+  gap: 0px;
 }
+#lista1{
+  display: flex;
+  flex-direction: column;
+}
+#lista2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+
+
 }
