@@ -293,6 +293,7 @@ footer ol {
   display: flex;
   gap: 60px;
 }
+
 @media (max-width: 660px) {
   html,
   h1,
@@ -325,33 +326,51 @@ footer ol {
   header .boxblue {
     display: none;
   }
-
+  h1 {
+    text-align: center;
+  }
   #simplifysection {
-    padding: 0;
+    margin-top: 240px;
+    padding: 0 40px;
+  }
+  #simplifyart {
+    display: flex;
+    flex-direction: column;
+  }
+  #data {
+    font-size: 0.5em;
   }
 
-  #simplifysection > div > img {
-    display: none;
+  #simplifysection > div > span {
+    text-align: justify;
   }
 
   #otherprojects {
     margin: 0px;
-    padding: 40px 40px;
+    padding: 160px 40px;
+    max-height: fit-content;
   }
-
+  #otherprojects h3 {
+    text-align: center;
+  }
   #otherprojects2 {
+    max-height: fit-content;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    gap: 40px;
   }
 
   #ctasection {
-    max-height: 400px;
+    max-width: fit-content;
+    border-radius: 400px;
+    max-height: 500px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 120px;
-    padding-top: 90px;
+    margin-top: 40px;
+    padding-top: 80px;
     text-align: center;
   }
 
@@ -391,6 +410,7 @@ footer ol {
     height: 100%;
     flex-direction: column;
     justify-content: normal;
+    gap: 20px;
     box-sizing: border-box;
   }
 
