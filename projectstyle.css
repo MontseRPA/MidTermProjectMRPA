@@ -9,6 +9,7 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   padding: 0;
   margin: 0 auto;
@@ -99,9 +100,6 @@ address {
 .hovercolor {
   color: #a2d6f9;
 }
-.darkcolor {
-  color: #292e47;
-}
 .boxblue {
   background-color: #072ac8;
   color: #f2f4fc;
@@ -135,66 +133,60 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-#herosection {
-  margin-top: 100px;
-  padding: 0px 170px;
-  max-height: 650px;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: space-around;
-}
-
-#herosection1 {
+#simplifysection {
+  margin-top: 200px;
+  max-width: 1100px;
+  max-height: 1181px;
   height: auto;
-  max-width: 570px;
-  width: 100%;
-  padding: 96px 0px;
-}
-#herosection1 > div {
-  padding-top: 20px;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 70px;
-}
-#herosection2 {
-  display: flex;
-  justify-content: end;
-  height: auto;
-  max-width: 570px;
-  width: 100%;
-  padding: 96px 0px;
-}
-#clientsection {
-  max-height: 96px;
-  height: 100%;
-  margin-top: 130px;
   padding: 0px 170px;
   display: flex;
-  flex-flow: nowrap row;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+#simplifyart {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
-#projectssection {
+#simplifysection img {
+  max-height: 444px;
   height: 100%;
+  max-width: 1100px;
+  width: 100%;
+  object-fit: cover;
+}
+#simplifysection > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 35px;
+}
+#simplifysection > div > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+#otherprojects {
+  margin-top: 70px;
   max-height: 561px;
-  margin: 200px 0px;
+  height: 100%;
+  max-width: 1440px;
   padding: 0px 170px;
 }
-#projects {
-  margin-top: 50px;
+#otherprojects2 {
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 40px;
   height: 100%;
   max-height: 444px;
 }
-
-#projects > div {
+#otherprojects2 > div {
   width: 100%;
   max-width: 340px;
   height: 100%;
@@ -210,8 +202,7 @@ header {
   max-height: 240px;
   height: 100%;
 }
-
-#projects > div .project-info {
+#otherprojects2 > div .project-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -223,126 +214,18 @@ header {
   box-sizing: border-box;
 }
 
-#projects > div .project-info .project-detail {
+#otherprojects2 > div .project-info .project-detail {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 8px;
 }
-
-#testimonialsection {
-  max-width: 1440px;
-  height: 622px;
-  margin-right: 60px;
-  background-color: #292e47;
-  width: 100%;
-  position: relative;
-}
-#testimonialdiv {
-  max-width: 1320px;
-  width: 100%;
-  padding: 120px 0px;
-}
-#testimonialsection-emoji > img {
-  height: 150px;
-}
-#testimonialsection-emoji1 {
-  position: absolute;
-  top: 4%;
-  left: 6%;
-}
-#testimonialsection-emoji2 {
-  position: absolute;
-  top: 4%;
-  right: 6%;
-}
-#testimonialsection-emoji3 {
-  position: absolute;
-  bottom: 6%;
-  left: 6%;
-}
-#testimonialsection-emoji4 {
-  position: absolute;
-  bottom: 6%;
-  right: 6%;
-}
-#testimonialsection2 img {
-  height: 50px;
-  border-radius: 150px;
-}
-#testimonialsection2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 160px;
-}
-#testimonial1 {
-  text-align: center;
-}
-#testimonial1 p {
-  padding-top: 80px;
-}
-#testimonial2 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#testi2 {
-  display: flex;
-  flex-direction: column;
-}
-#testimonialsection h3 {
-  color: #f2f4fc;
-}
-#servicessection {
-  margin-top: 200px;
-  padding: 0px 170px;
-  max-height: 497px;
-  height: 100%;
-}
-#services {
-  padding-top: 50px;
-  max-height: 380px;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
-}
-.servicesicono {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-  width: 80px;
-  background-color: #ecf7ff;
-  border-radius: 50px;
-}
-#services > img {
-  height: 40px;
-  width: 40px;
-}
-
-.service {
-  max-height: 380px;
-  height: 100%;
-  max-width: 340px;
-  padding: 25px 20px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 25px;
-}
-
 #ctasection {
-  max-height: 500px;
-  height: 100%;
+  height: 500px;
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 170px;
+  margin-top: 100px;
   background-color: #ffc600;
   padding-top: 136px;
   padding-bottom: 136px;
@@ -390,7 +273,6 @@ footer {
   margin-top: 170px;
   height: 192px;
   padding: 0px 170px 50px 170px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -420,7 +302,6 @@ footer ol {
   h4 {
     font-size: 1.5em;
   }
-
   .body-medium,
   .body-regular,
   .headline-medium,
@@ -445,69 +326,36 @@ footer ol {
   header .boxblue {
     display: none;
   }
-  #herosection {
-    margin: 0px;
-    padding: 60px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  #herosection1 {
-    padding: 60px 0px;
-  }
-  #herosection2 {
-    padding: 0px;
-  }
-  #clientsection {
-    margin-top: 160px;
-    padding: 0px 40px;
-  }
-  #clientsection img {
-    max-width: 50px;
-  }
-  #projectssection {
-    margin: 0px;
-    padding: 40px 40px;
-    max-height: fit-content;
-  }
-  #projectssection h3 {
+  h1 {
     text-align: center;
   }
-  #projects {
-    max-height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-  }
-  #testimonialsection {
-    max-height: fit-content;
-    margin: 50px 40px;
-    max-width: fit-content;
-  }
-  #testimonialsection-emoji3 {
-    display: none;
-  }
-  #testimonialsection-emoji4 {
-    display: none;
-  }
-  #testimonialsection2 {
-    padding-top: 60px;
-    gap: 40px;
-  }
-  #servicessection {
-    margin-top: 60px;
+  #simplifysection {
+    margin-top: 240px;
     padding: 0 40px;
+  }
+  #simplifyart {
+    display: flex;
+    flex-direction: column;
+  }
+  #data {
+    font-size: 0.5em;
+  }
+
+  #simplifysection > div > span {
+    text-align: justify;
+  }
+
+  #otherprojects {
+    margin: 0px;
+    padding: 160px 40px;
     max-height: fit-content;
   }
-  #servicessection h3 {
+  #otherprojects h3 {
     text-align: center;
   }
-  #services {
-    padding: 40px 40px;
+  #otherprojects2 {
     max-height: fit-content;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -521,8 +369,8 @@ footer ol {
     max-height: 500px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 120px;
-    padding-top: 90px;
+    margin-top: 40px;
+    padding-top: 80px;
     text-align: center;
   }
 
@@ -557,7 +405,7 @@ footer ol {
   footer {
     padding: 0px 40px;
     margin: 0px;
-    margin-top: 80px;
+    margin-top: 150px;
     width: 100vw;
     height: 100%;
     flex-direction: column;
@@ -579,7 +427,7 @@ footer ol {
     flex-direction: row;
     align-items: flex-start;
     gap: 0px;
-    padding: 20px 0;
+    padding: 0;
   }
   #lista1 {
     display: flex;
