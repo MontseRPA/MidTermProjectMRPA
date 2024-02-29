@@ -232,9 +232,9 @@ header {
 }
 
 #testimonialsection {
-  max-width: 1320px;
-  margin: 0px 60px;
+  max-width: 1440px;
   height: 622px;
+  margin-right: 60px;
   background-color: #292e47;
   width: 100%;
   position: relative;
