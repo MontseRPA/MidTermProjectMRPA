@@ -124,7 +124,7 @@ input {
 
 header {
   margin: 0;
-  max-width: 1440vw;
+  max-width: 1440px;
   width: 100%;
   position: fixed;
   top: 0;
